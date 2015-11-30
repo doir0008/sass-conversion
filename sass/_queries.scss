@@ -59,13 +59,13 @@
     }
     section {
         &.focal, &.content1, &.content2 {
-            width: 700px;
             margin: 0 auto;
+            width: 700px;
         }
     }
     footer {
-        width: 700px;
         margin: 0 auto;
+        width: 700px;
         .fa-circle {
             color: $med_blue;
         }
@@ -93,8 +93,8 @@
 }
 @include media(901px, 1400px) {
     header {
-        width: 900px;
         margin: 0 auto;
+        width: 900px;
         &:before, &:after {
             width: 300px;
         }
